@@ -1,1 +1,193 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of css reset */
+body {
+    
+    width: 100%;
+    margin: 0 auto;
+}
+.main-container {
+    background-color: white;
+}
+header img {
+    border: solid  #1B9AA9 1px;
+    border-radius: 360px;
+}
+header h1 {
+    margin-left: 1.5%;
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    padding: 25px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;  
+}
+nav li {
+    padding: 25px;
+    display: flex;
+    border-radius: 6px;
+    margin: 0 20px;
+}
+nav li:hover {
+    background-color: skyblue;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+.banner {
+    background-color: rgb(193, 230, 235);
+    display: flex;
+    width: 100%;
+} 
+span.banner-title{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+}
+.banner p{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding-left: 5% ;
+    padding-right: 5%;
+    font-size: 160% ;
+    width: 60%;
+}
+img.banner {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 12.5%;
+}
+.gallery h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 200%;
+}
+.project1 {
+    margin:  5% 10%;
+    display: flex;
+    flex-direction: row;
+}
+.project1 p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right:5%;
+}
+.project1 img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border:solid #1B9AA9 1px;
+    border-radius: 10px;
+}
+.project2 {
+    margin:  5% 10%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.project2 p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left:5%;
+}
+.project2 img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border:solid #1B9AA9 1px;
+    border-radius: 10px;
+}
+.project3 {
+    margin:  5% 10%;
+    display: flex;
+    flex-direction: row;
+}
+.project3 p{
+    margin-top: 10%;
+    margin-right:5%;
+}
+.project3 img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border:solid #1B9AA9 1px;
+    border-radius: 10px;
+}
+/* .gallery { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around; 
+}
+*/
+img {
+    margin:20px 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-top: solid gray 1px;
+}
+
+
